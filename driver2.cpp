@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
      continue;
   }
   else {
-    cout <<"Invalid date! Please try again"<<endl;
+    cout <<"Invalid country! Please try again"<<endl;
     getline(cin, answerCountry);
   }
   cout << "# Choose the city:" <<endl;
@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
      continue;
   }
   else {
-    cout <<"Invalid date! Please try again"<<endl;
+    cout <<"Invalid city! Please try again"<<endl;
     getline(cin, answerCity);
   }
   cout << "# Choose the type of food: "<<endl;
@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
      continue;
   }
   else {
-    cout <<"Invalid date! Please try again"<<endl;
+    cout <<"Invalid answer! Please try again"<<endl;
     getline(cin, answerVeg);
   }
   cout << "# Choose the price: $ or $$, or $$$" << endl;
@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
      continue;
   }
   else {
-    cout <<"Invalid date! Please try again"<<endl;
+    cout <<"Invalid price range! Please try again"<<endl;
     getline(cin, answerPrice);
   }
   cout<< "Are you planning to go with someone?(Y/N)"<<endl;
@@ -84,7 +84,7 @@ int main(int argc, char* argv[])
      continue;
   }
   else {
-    cout <<"Invalid date! Please try again"<<endl;
+    cout <<"Invalid answer! Please try again"<<endl;
     getline(cin, answer1);
   }
   if (answer1 == "N"){
